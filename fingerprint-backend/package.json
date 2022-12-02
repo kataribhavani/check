@@ -1,0 +1,21 @@
+{
+  "name": "fingerprint-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "errorhandler": "^1.5.1",
+    "express-session": "^1.17.3",
+    "fido2-lib": "^3.3.4"
+  }
+}
